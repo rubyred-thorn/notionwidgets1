@@ -1,7 +1,8 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #ffffff;
-  color: #000000;
+  font-family: 'Lora', sans-serif;
+  font-size: 16px;
+  background-color: #000000;
+  color: #ffffff;
   text-align: center;
 }
 
@@ -9,6 +10,10 @@ body {
   overflow: hidden;
   width: 200px; /* Set your preferred width */
   margin: 0 auto;
+}
+
+ul.checklist li {
+  font-size: 18px;
 }
 
 ul {
@@ -36,9 +41,12 @@ input[type="checkbox"] {
 .arrow {
   background: none;
   border: none;
-  font-size: 20px;
+  font-size: 24px;
+  color: #ffffff;
   cursor: pointer;
   outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(#ffffff, #e0e0e0);
 }
 
 #prev {
