@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+}
+
+.slideshow {
+  overflow: hidden;
+  width: 200px; /* Set your preferred width */
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.checklist {
+  display: none;
+}
+
+.checklist.visible {
+  display: block;
+}
+
+li {
+  padding: 5px 0;
+  border-bottom: 1px solid #000000;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.arrow {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+#prev {
+  float: left;
+}
+
+#next {
+  float: right;
+}
