@@ -15,6 +15,7 @@ body {
 ul.checklist li {
   font-size: 18px;
   text-decoration: none;
+  text-alignment: left
 }
 
 ul.checklist li.checked {
